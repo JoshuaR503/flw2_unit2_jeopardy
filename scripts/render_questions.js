@@ -50,8 +50,7 @@ const renderQuestions = () => {
       questionHtml += `
         <div class='question'>
             <div class='question-cell' data-category=${i}>$${question}</div>
-        </div>
-        `;
+        </div>`;
     });
 
     questionHtml += "</div>";

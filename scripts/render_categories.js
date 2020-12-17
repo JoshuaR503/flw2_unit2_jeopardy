@@ -36,7 +36,11 @@ const renderCategories = () => {
   // Add code here
   categories.forEach((category) => {
     $("#categories").append(
-      `<div class='category'><div class='category-cell'>${category.toUpperCase()}</div></div>`
+      `
+      <div class='category'>
+        <div class='category-cell'>${category.toUpperCase()}</div>
+      </div>
+      `
     );
   });
 };
